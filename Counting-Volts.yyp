@@ -23,7 +23,10 @@
   },
   "name":"Counting-Volts",
   "resources":[
+    {"id":{"name":"obj_bloco","path":"objects/obj_bloco/obj_bloco.yy",},},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_bloco","path":"sprites/spr_bloco/spr_bloco.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
   ],
   "resourceType":"GMProject",
