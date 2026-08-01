@@ -5,6 +5,7 @@ velh = 0;
 max_velh = 1;
 max_velv = 4;
 grav = 0.2;
+altura_pulo = 3;
 //inputs
 right = false;
 left = false;
@@ -38,7 +39,7 @@ aplica_velocidade = function(){
          y = round(y)
         
         if(jump){
-            y -=max_velv;
+            velv-=altura_pulo;
         }
     }
     
