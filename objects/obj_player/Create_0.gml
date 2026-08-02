@@ -80,6 +80,17 @@ estado_idle = function(){
         estado = estado_pulo;
     }
     
+    if(bola_volt){
+        var _bola = instance_create_layer(x, y - 4, layer, obj_bola_volt);
+        _bola.direction = direction;
+        _bola.volts = 2;
+        _bola.speed = 0.5;
+    }
+    
+    if(clone){
+        instance_create_layer(x, y, layer, obj_clonevolt);
+    }
+    
 }
 
 estado_movendo = function(){
