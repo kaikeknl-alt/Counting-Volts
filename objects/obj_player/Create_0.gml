@@ -72,6 +72,10 @@ estado_idle = function(){
         estado = estado_pulo;
     }
     
+    if(!chao){
+        estado = estado_pulo;
+    }
+    
 }
 
 estado_movendo = function(){
@@ -84,6 +88,10 @@ estado_movendo = function(){
     }
     
     if(jump){
+        estado = estado_pulo;
+    }
+    
+    if(!chao){
         estado = estado_pulo;
     }
 }
