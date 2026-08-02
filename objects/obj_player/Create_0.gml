@@ -10,6 +10,8 @@ altura_pulo = 3;
 right = false;
 left = false;
 jump = false;
+clone = false;
+bola_volt = false;
 //variavel de controle
 chao = false;
 
@@ -19,6 +21,8 @@ pega_inputs = function(){
     right = keyboard_check(ord("D")) or keyboard_check(vk_right);
     left = keyboard_check(ord("A")) or keyboard_check(vk_left);
     jump = keyboard_check_pressed(vk_space);
+    clone = keyboard_check_pressed(ord("J"));
+    bola_volt = keyboard_check_pressed(ord("K"));
 }
 
 checa_chao = function(){
