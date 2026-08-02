@@ -51,8 +51,57 @@ movimento = function(){
     move_and_collide(0, velv, obj_bloco, 12);
 }
 
+troca_sprite = function(_sprite){
+    if(sprite_index != _sprite){
+        sprite_index = _sprite;
+    }
+}
+
 #endregion
 
 #region ESTADOS
 
+estado_idle = function(){
+    aplica_velocidade();
+    
+    troca_sprite(spr_player_idle);
+    
+    if(right or left) estado = estado_movendo;
+        
+    if(jump){
+        estado = estado_pulo;
+    }
+    
+}
+
+estado_movendo = function(){
+    aplica_velocidade();
+    
+    troca_sprite(spr_player_walk);
+    
+    if(velh == 0){
+        estado = estado_idle;
+    }
+    
+    if(jump){
+        estado = estado_pulo;
+    }
+}
+
+estado_pulo = function(){
+    aplica_velocidade();
+    
+    if(velv > 0){
+        troca_sprite(spr_player_fall);
+    }else if(velv < 0){
+        troca_sprite(spr_player_jump);
+    }
+    
+    if(chao){
+        estado = estado_idle;
+    }
+}
+
 #endregion
+
+estado = estado_idle;
