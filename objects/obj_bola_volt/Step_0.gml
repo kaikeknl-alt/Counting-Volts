@@ -1,4 +1,5 @@
 timer--;
+image_angle+=10;
 
 if(timer <= 0){
     if(!instance_place(x, y, obj_clonevolt)){
