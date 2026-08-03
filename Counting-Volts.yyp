@@ -31,6 +31,7 @@
   "name":"Counting-Volts",
   "resources":[
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
+    {"id":{"name":"obj_bloco_volt_pifado","path":"objects/obj_bloco_volt_pifado/obj_bloco_volt_pifado.yy",},},
     {"id":{"name":"obj_bloco_volt","path":"objects/obj_bloco_volt/obj_bloco_volt.yy",},},
     {"id":{"name":"obj_bloco","path":"objects/obj_bloco/obj_bloco.yy",},},
     {"id":{"name":"obj_bola_volt","path":"objects/obj_bola_volt/obj_bola_volt.yy",},},
@@ -47,6 +48,7 @@
     {"id":{"name":"snd_descarregado","path":"sounds/snd_descarregado/snd_descarregado.yy",},},
     {"id":{"name":"snd_pifado","path":"sounds/snd_pifado/snd_pifado.yy",},},
     {"id":{"name":"snd_twotone","path":"sounds/snd_twotone/snd_twotone.yy",},},
+    {"id":{"name":"spr_bloco_volt_pifado","path":"sprites/spr_bloco_volt_pifado/spr_bloco_volt_pifado.yy",},},
     {"id":{"name":"spr_bloco_volt","path":"sprites/spr_bloco_volt/spr_bloco_volt.yy",},},
     {"id":{"name":"spr_bloco","path":"sprites/spr_bloco/spr_bloco.yy",},},
     {"id":{"name":"spr_bola_volt","path":"sprites/spr_bola_volt/spr_bola_volt.yy",},},

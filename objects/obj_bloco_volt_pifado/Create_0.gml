@@ -12,8 +12,6 @@ estado_normal = function(){
 
 estado_pifado = function(){
     efeito_som(snd_pifado, 0);
-    instance_create_layer(x, y, layer, obj_bloco_volt_pifado);
-    instance_destroy();
 }
 
 estado_menos_volt = function(){
