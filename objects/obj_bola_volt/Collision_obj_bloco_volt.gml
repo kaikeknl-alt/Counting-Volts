@@ -1,8 +1,10 @@
 if(volts < other.volt_min){
-    show_message("kkkkk");
+    other.estado_menos_volt();
+    instance_destroy();
 }else if(volts = other.volt_min){
-    instance_destroy(other);
+    other.estado_carregado();
     instance_destroy();
 }else if(volts > other.volt_min){
-    show_message("pifei");
+    other.estado_pifado();
+    instance_destroy();
 }

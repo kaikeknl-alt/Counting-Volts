@@ -17,6 +17,8 @@ chao = false;
 colisao = [obj_bloco, obj_clonevolt, obj_bloco_volt];
 dir = 1;
 
+clones = 4;
+
 inicia_efeito_mola();
 
 #region METODOS
@@ -107,7 +109,8 @@ estado_idle = function(){
         _bola.speed = 0.5 * dir;
     }
     
-    if(clone){
+    if(clone and clones > 0){
+        clones-=1;
         var _clone = instance_create_layer(x, y, layer, obj_clonevolt);
         _clone.dir = dir;
         
@@ -139,6 +142,29 @@ estado_movendo = function(){
     
     if(!chao){
         estado = estado_pulo;
+    }
+    
+    if(bola_volt){
+        var _bola = instance_create_layer(x, y - 4, layer, obj_bola_volt);
+        _bola.direction = direction;
+        _bola.volts = 2;
+        _bola.speed = 0.5 * dir;
+    }
+    
+    if(clone and clones > 0){
+        clones-=1;
+        var _clone = instance_create_layer(x, y, layer, obj_clonevolt);
+        _clone.dir = dir;
+        
+        if(array_contains(colisao, obj_clonevolt)){
+            var _id = array_get_index(colisao, obj_clonevolt);
+            array_delete(colisao, _id, 1);
+        }
+        //var _checa_clone = place_meeting(x, y, obj_clonevolt);
+        //if(_checa_clone){
+            //var _id = array_get_index(colisao, 1);
+            //array
+        //}
     }
 }
 
