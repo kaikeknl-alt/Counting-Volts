@@ -14,6 +14,7 @@ clone = false;
 bola_volt = false;
 //variavel de controle
 chao = false;
+colisao = [obj_bloco, obj_clonevolt];
 
 #region METODOS
 
@@ -26,7 +27,7 @@ pega_inputs = function(){
 }
 
 checa_chao = function(){
-    chao = place_meeting(x, y + 1, obj_bloco);
+    chao = place_meeting(x, y + 1, colisao);
 }
 
 aplica_velocidade = function(){
@@ -51,13 +52,21 @@ aplica_velocidade = function(){
 }
 
 movimento = function(){
-    move_and_collide(velh, 0, obj_bloco, 4);
-    move_and_collide(0, velv, obj_bloco, 12);
+    move_and_collide(velh, 0, colisao, 4);
+    move_and_collide(0, velv, colisao, 12);
 }
 
 troca_sprite = function(_sprite){
     if(sprite_index != _sprite){
         sprite_index = _sprite;
+    }
+}
+
+checando_clonevolt = function(){
+   if(!array_contains(colisao, obj_clonevolt)){
+        if(!place_meeting(x, y, obj_clonevolt)){
+            array_push(colisao, obj_clonevolt);
+        }
     }
 }
 
@@ -89,6 +98,16 @@ estado_idle = function(){
     
     if(clone){
         instance_create_layer(x, y, layer, obj_clonevolt);
+        
+        if(array_contains(colisao, obj_clonevolt)){
+            var _id = array_get_index(colisao, obj_clonevolt);
+            array_delete(colisao, _id, 1);
+        }
+        //var _checa_clone = place_meeting(x, y, obj_clonevolt);
+        //if(_checa_clone){
+            //var _id = array_get_index(colisao, 1);
+            //array
+        //}
     }
     
 }
