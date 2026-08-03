@@ -15,6 +15,9 @@ bola_volt = false;
 //variavel de controle
 chao = false;
 colisao = [obj_bloco, obj_clonevolt, obj_bloco_volt];
+dir = 1;
+
+inicia_efeito_mola();
 
 #region METODOS
 
@@ -70,6 +73,14 @@ checando_clonevolt = function(){
     }
 }
 
+ajusta_escala = function(){
+    if(velh != 0){
+        dir = sign(velh);
+    }else if(velh = 0){
+        dir = dir;
+    }
+}
+
 #endregion
 
 #region ESTADOS
@@ -93,11 +104,12 @@ estado_idle = function(){
         var _bola = instance_create_layer(x, y - 4, layer, obj_bola_volt);
         _bola.direction = direction;
         _bola.volts = 2;
-        _bola.speed = 0.5;
+        _bola.speed = 0.5 * dir;
     }
     
     if(clone){
-        instance_create_layer(x, y, layer, obj_clonevolt);
+        var _clone = instance_create_layer(x, y, layer, obj_clonevolt);
+        _clone.dir = dir;
         
         if(array_contains(colisao, obj_clonevolt)){
             var _id = array_get_index(colisao, obj_clonevolt);
