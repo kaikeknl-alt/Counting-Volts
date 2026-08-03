@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_splash_stretch",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_splash_stretch",
+  "parent":{
+    "name":"script",
+    "path":"folders/Efeitos/script.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
