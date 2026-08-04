@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"bloco_de_notas",
+  "name":"bloco_de_notas",
+  "parent":{
+    "name":"Counting-Volts",
+    "path":"Counting-Volts.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

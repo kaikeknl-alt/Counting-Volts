@@ -31,6 +31,7 @@
   "name":"Counting-Volts",
   "resources":[
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
+    {"id":{"name":"bloco_de_notas","path":"notes/bloco_de_notas/bloco_de_notas.yy",},},
     {"id":{"name":"obj_bloco_volt_pifado","path":"objects/obj_bloco_volt_pifado/obj_bloco_volt_pifado.yy",},},
     {"id":{"name":"obj_bloco_volt","path":"objects/obj_bloco_volt/obj_bloco_volt.yy",},},
     {"id":{"name":"obj_bloco","path":"objects/obj_bloco/obj_bloco.yy",},},
