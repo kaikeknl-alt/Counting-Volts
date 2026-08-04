@@ -14,7 +14,7 @@ clone = false;
 bola_volt = false;
 //variavel de controle
 chao = false;
-colisao = [obj_bloco, obj_clonevolt, obj_bloco_volt];
+colisao = [obj_bloco, obj_clonevolt, obj_bloco_volt, obj_bloco_volt_pifado];
 dir = 1;
 
 clones = 4;
