@@ -16,3 +16,5 @@ novas:
 3 - criar as placas
 4 - criar o botao de reiniciar a room
 5 - criar o dijuntor maior(sendo ele que, quando nao existem mais blocos volts eles mandam pra uma sala e quando tem um queimado e outro normal, manda pra outra)
+
+OBS IMPORTANTE: TENTAR REALIZAR TODAS AS TAREFAS AMANHÃ, POIS DARA MAIS TEM PARA OUTRA ETAPAS DO JOGO
