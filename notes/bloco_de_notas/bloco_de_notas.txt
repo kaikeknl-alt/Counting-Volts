@@ -13,8 +13,8 @@ OBS: tentar fazer os efeitos de brilho na tela quando eles forem carregados e ta
 novas:
 1 - criar as musicas do jogo e coloca-las pra tocar
 2 - criar novas fases
-3 - criar as placas
-4 - criar o botao de reiniciar a room
+3 - criar as placas (V)
+4 - criar o botao de reiniciar a room 
 5 - criar o dijuntor maior(sendo ele que, quando nao existem mais blocos volts eles mandam pra uma sala e quando tem um queimado e outro normal, manda pra outra)
 
 OBS IMPORTANTE: TENTAR REALIZAR TODAS AS TAREFAS AMANHÃ, POIS DARA MAIS TEM PARA OUTRA ETAPAS DO JOGO
