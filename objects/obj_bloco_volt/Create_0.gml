@@ -73,7 +73,6 @@ estado_carregado = function(){
     efeito_som(snd_carregado, 0);
     sofri_carga = true;
     estado = estado_saindo_carregado;
-    part_particles_create(ps, sprite_width/2, y, ptype1, 1);
 }
 
 estado_saindo_carregado = function(){

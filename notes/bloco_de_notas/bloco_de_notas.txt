@@ -1,9 +1,18 @@
 ETAPAS PRA AMANHÃ:
-1- criar os sistemas de chave e porta
+1- criar os sistemas de chave e porta (V)
 2- criar o sistema de particulas e colocar na porta e no bloco volt
-3- criar o objeto acelerador, que acelera e aumenta a bola volt em 1
-4- criar 2 rooms, para fazer a transição entre elas(assim criando o objeto transição)
-5- começar a arte das salas e dos blocos(sendo eles o bloco volt, e bloco volt pifado)
-OBS: tentar fazer os efeitos de brilho na tela quando eles forem carregados e tals(luz verde, azul claro e vermelha)
+3- criar o objeto acelerador, que acelera e aumenta a bola volt em 1 (V)
+4- criar 2 rooms, para fazer a transição entre elas(assim criando o objeto transição) (V)
 
+ETAPAS PRA AMANHÃ:
+5- começar a arte das salas e dos blocos(sendo eles o bloco volt, e bloco volt pifado) 
+OBS: tentar fazer os efeitos de brilho na tela quando eles forem carregados e tals(luz verde, azul claro e vermelha)
 -fazer os sistema de vida e espinho, alem de colocar screeshake e obj_jogo
+2- criar o sistema de particulas e colocar na porta e no bloco volt
+
+novas:
+1 - criar as musicas do jogo e coloca-las pra tocar
+2 - criar novas fases
+3 - criar as placas
+4 - criar o botao de reiniciar a room
+5 - criar o dijuntor maior(sendo ele que, quando nao existem mais blocos volts eles mandam pra uma sala e quando tem um queimado e outro normal, manda pra outra)
