@@ -16,6 +16,7 @@ bola_volt = false;
 chao = false;
 colisao = [obj_bloco, obj_clonevolt, obj_bloco_volt, obj_bloco_volt_pifado];
 dir = 1;
+chaves = 0;
 
 clones = 4;
 
@@ -80,6 +81,18 @@ ajusta_escala = function(){
         dir = sign(velh);
     }else if(velh = 0){
         dir = dir;
+    }
+}
+
+abrindo_porta = function(){
+    var _porta = instance_place(x + sign(velh), y, obj_porta);
+    if(_porta){
+       if(obj_porta.estado_fechada){
+           if(chaves > 0){
+               chaves-=1;
+               obj_porta.estado_abrindo();
+           }
+       }
     }
 }
 
