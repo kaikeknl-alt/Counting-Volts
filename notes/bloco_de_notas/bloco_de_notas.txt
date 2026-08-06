@@ -18,3 +18,12 @@ novas:
 5 - criar o dijuntor maior(sendo ele que, quando nao existem mais blocos volts eles mandam pra uma sala e quando tem um queimado e outro normal, manda pra outra)(V)
 
 OBS IMPORTANTE: TENTAR REALIZAR TODAS AS TAREFAS AMANHÃ, POIS DARA MAIS TEM PARA OUTRA ETAPAS DO JOGO
+
+ETAPAS PRA FINALIZAR:
+1 - criar as musicas do jogo e coloca-las pra tocar ()
+2 - criar novas fases ()
+3 - colocar screeshake ()
+4 - fazer o obj_jogo(que cria os icones) ()
+5 - criar o sistema de particulas, como tochas, poeira, etc ()
+6 - começar a arte das salas e dos blocos(sendo eles o bloco volt, e bloco volt pifado) ()
+7 - fazer os efeitos de brilho na tela quando eles forem carregados e tals(luz verde, azul claro e vermelha) ()
