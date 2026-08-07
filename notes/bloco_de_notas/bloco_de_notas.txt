@@ -26,4 +26,4 @@ ETAPAS PRA FINALIZAR:
 4 - fazer o obj_jogo(que cria os icones) ()
 5 - criar o sistema de particulas, como tochas, poeira, etc ()
 6 - começar a arte das salas e dos blocos(sendo eles o bloco volt, e bloco volt pifado) ()
-7 - fazer os efeitos de brilho na tela quando eles forem carregados e tals(luz verde, azul claro e vermelha) ()
+7 - fazer os efeitos de brilho na tela quando eles forem carregados e tals(luz verde, azul claro e vermelha) (V)

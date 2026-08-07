@@ -2,6 +2,11 @@ estado = noone;
 
 sofri_carga = false;
 
+//cores
+cor_c = make_colour_rgb(112, 248, 68);
+cor_nc = make_colour_rgb(119, 185, 255);
+cor_p = make_colour_rgb(255, 53, 53);
+
 //ps_porta_abrindo
 ps = part_system_create();
 part_system_draw_order(ps, true);
@@ -48,6 +53,13 @@ colidindo_com_bolavolt = function(){
     }
 }
 
+cria_brilho = function(_cor = c_white){
+     var _brilho = instance_create_layer(0, 0, "brilho", obj_retangulo_brilho);
+    _brilho.image_xscale = _brilho.image_xscale * 5;
+    _brilho.image_yscale = _brilho.image_yscale * 5;
+    _brilho.image_blend = _cor;
+}
+
 
 
 
@@ -58,6 +70,9 @@ estado_normal = function(){
 estado_pifado = function(){
     efeito_som(snd_pifado, 0);
     sofri_carga = true;
+    
+    cria_brilho(cor_p);
+    
     instance_create_layer(x, y, layer, obj_bloco_volt_pifado);
     instance_destroy();
 }
@@ -66,12 +81,17 @@ estado_menos_volt = function(){
     efeito_som(snd_descarregado, 0);
     sofri_carga = true;
     
+    cria_brilho(cor_nc);
+    
     estado = estado_normal;
 }
 
 estado_carregado = function(){
     efeito_som(snd_carregado, 0);
     sofri_carga = true;
+    
+    cria_brilho(cor_c);
+    
     estado = estado_saindo_carregado;
 }
 
