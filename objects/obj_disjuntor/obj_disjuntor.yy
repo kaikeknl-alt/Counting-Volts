@@ -48,8 +48,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dijuntor",
-    "path":"sprites/spr_dijuntor/spr_dijuntor.yy",
+    "name":"spr_dijuntor_1",
+    "path":"sprites/spr_dijuntor_1/spr_dijuntor_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
