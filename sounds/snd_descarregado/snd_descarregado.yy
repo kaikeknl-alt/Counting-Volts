@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_descarregado",
   "parent":{
-    "name":"Sons",
-    "path":"folders/Sons.yy",
+    "name":"bloco_volt_snd",
+    "path":"folders/Sons/bloco_volt_snd.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
