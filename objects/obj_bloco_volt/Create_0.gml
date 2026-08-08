@@ -73,7 +73,8 @@ estado_pifado = function(){
     
     cria_brilho(cor_p);
     
-    instance_create_layer(x, y, layer, obj_bloco_volt_pifado);
+     var _pife = instance_create_layer(x, y, layer, obj_bloco_volt_pifado);
+    _pife.dir = dir;
     instance_destroy();
 }
 

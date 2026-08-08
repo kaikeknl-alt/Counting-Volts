@@ -18,7 +18,7 @@ colisao = [obj_bloco, obj_clonevolt, obj_bloco_volt, obj_bloco_volt_pifado, obj_
 dir = 1;
 chaves = 0;
 
-clones = 4;
+clones = 2;
 
 inicia_efeito_mola();
 
@@ -93,6 +93,15 @@ abrindo_porta = function(){
                obj_porta.estado_abrindo();
            }
        }
+    }
+}
+
+pegando_powerup = function(){
+    velh = 0;
+    velv = 0;
+    
+    if(!instance_exists(obj_particula)){
+        estado = estado_idle;
     }
 }
 
