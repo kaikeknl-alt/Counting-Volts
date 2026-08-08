@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_disjuntor",
+  "%Name":"obj_disjuntor_2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_disjuntor",
+  "name":"obj_disjuntor_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/objetos.yy",
+    "name":"blocos",
+    "path":"folders/objetos/blocos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -48,8 +48,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dijuntor_1",
-    "path":"sprites/spr_dijuntor_1/spr_dijuntor_1.yy",
+    "name":"spr_dijuntor_2",
+    "path":"sprites/spr_dijuntor_2/spr_dijuntor_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

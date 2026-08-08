@@ -9,8 +9,8 @@
   "name":"obj_retangulo_brilho",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/objetos.yy",
+    "name":"particulas",
+    "path":"folders/objetos/particulas.yy",
   },
   "parentObjectId":null,
   "persistent":false,

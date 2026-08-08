@@ -6,8 +6,8 @@
   "name":"obj_cajado",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/objetos.yy",
+    "name":"coletaveis",
+    "path":"folders/objetos/level/coletaveis.yy",
   },
   "parentObjectId":null,
   "persistent":false,

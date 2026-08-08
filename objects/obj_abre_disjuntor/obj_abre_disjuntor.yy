@@ -10,8 +10,8 @@
   "name":"obj_abre_disjuntor",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/objetos.yy",
+    "name":"blocos",
+    "path":"folders/objetos/blocos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

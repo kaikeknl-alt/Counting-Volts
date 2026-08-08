@@ -10,8 +10,8 @@
   "name":"obj_power_up_clone",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/objetos.yy",
+    "name":"level",
+    "path":"folders/objetos/level.yy",
   },
   "parentObjectId":null,
   "persistent":false,

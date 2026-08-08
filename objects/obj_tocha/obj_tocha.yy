@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dialogo",
+  "%Name":"obj_tocha",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_dialogo",
+  "name":"obj_tocha",
   "overriddenProperties":[],
   "parent":{
-    "name":"jogo",
-    "path":"folders/objetos/jogo.yy",
+    "name":"level",
+    "path":"folders/objetos/level.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,9 +32,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dialogo",
-    "path":"sprites/spr_dialogo/spr_dialogo.yy",
+    "name":"spr_tocha",
+    "path":"sprites/spr_tocha/spr_tocha.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

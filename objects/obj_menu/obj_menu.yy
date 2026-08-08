@@ -10,8 +10,8 @@
   "name":"obj_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/objetos.yy",
+    "name":"jogo",
+    "path":"folders/objetos/jogo.yy",
   },
   "parentObjectId":null,
   "persistent":false,

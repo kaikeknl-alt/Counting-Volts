@@ -9,8 +9,8 @@
   "name":"obj_clonevolt",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/objetos.yy",
+    "name":"player",
+    "path":"folders/objetos/player.yy",
   },
   "parentObjectId":null,
   "persistent":false,

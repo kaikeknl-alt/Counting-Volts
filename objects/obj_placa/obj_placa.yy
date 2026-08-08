@@ -9,8 +9,8 @@
   "name":"obj_placa",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/objetos.yy",
+    "name":"level",
+    "path":"folders/objetos/level.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -11,8 +11,8 @@
   "name":"obj_bloco_volt",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/objetos.yy",
+    "name":"blocos",
+    "path":"folders/objetos/blocos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

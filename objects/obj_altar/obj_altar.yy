@@ -6,8 +6,8 @@
   "name":"obj_altar",
   "overriddenProperties":[],
   "parent":{
-    "name":"objetos",
-    "path":"folders/objetos.yy",
+    "name":"level",
+    "path":"folders/objetos/level.yy",
   },
   "parentObjectId":null,
   "persistent":false,
