@@ -1,4 +1,4 @@
-alvo = noone;
+alvo = obj_player;
 voltar = false;
 
-alarm[0] = 60 * 2;
+alarm[0] = 30;

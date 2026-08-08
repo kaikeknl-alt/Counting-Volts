@@ -97,12 +97,7 @@ abrindo_porta = function(){
 }
 
 pegando_powerup = function(){
-    velh = 0;
-    velv = 0;
-    
-    if(!instance_exists(obj_particula)){
-        estado = estado_idle;
-    }
+   estado = estado_power_up;
 }
 
 #endregion
@@ -200,6 +195,17 @@ estado_pulo = function(){
     }
     
     if(chao){
+        estado = estado_idle;
+    }
+}
+
+estado_power_up = function(){
+    troca_sprite(spr_player_jump);
+    
+    velh = 0;
+    velv = 0;
+    var _ext_part = instance_exists(obj_particula);
+    if(!_ext_part){
         estado = estado_idle;
     }
 }

@@ -1,5 +1,7 @@
 if(alvo){
     image_alpha -=0.1;
     
-    if()
+    if(image_alpha <= 0){
+        instance_destroy();
+    }
 }

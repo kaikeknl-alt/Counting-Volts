@@ -1,6 +1,6 @@
 if(alvo == noone){
     other.pegando_powerup();
-    other.clones = clones;
+    other.clones += clones;
     
     movendo();
     explosao();
