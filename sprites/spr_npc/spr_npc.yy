@@ -31,8 +31,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"sprites",
-    "path":"folders/sprites.yy",
+    "name":"level",
+    "path":"folders/sprites/level.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
